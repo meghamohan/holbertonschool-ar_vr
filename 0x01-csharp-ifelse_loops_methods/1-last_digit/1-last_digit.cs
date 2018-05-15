@@ -13,7 +13,7 @@ class Program
 	else
 	{
 		if (n == 0)
-			Console.WriteLine("The last digit of {0} is {1} and is zero", number, n);
+			Console.WriteLine("The last digit of {0} is {1} and is 0", number, n);
 		else
 			Console.WriteLine("The last digit of {0} is {1} and is less than 6 and not 0", number, n);
 	}
