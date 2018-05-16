@@ -8,7 +8,7 @@ namespace _6_print_comb2
         {
 		for (int i = 0; i < 9; i++)
 		{
-			for (int j = 0; j < 10; j++)
+			for (int j = i; j < 10; j++)
 			{
 				if (i != j)
 				{
